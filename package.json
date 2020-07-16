@@ -18,7 +18,7 @@
     "lint": "eslint \"**/*.js\""
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.10.1",
+    "@fortawesome/fontawesome-free": "^5.14.0",
     "@ladjs/bootstrap-social": "^7.0.2",
     "@octokit/rest": "^16.28.7",
     "axios": "^0.19.0",
