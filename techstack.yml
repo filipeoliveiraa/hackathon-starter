@@ -2,7 +2,7 @@ repo_name: filipeoliveiraa/hackathon-starter
 report_id: a7b021ef7190acdffffa381ff9115fa6
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-04T23:14:28+00:00'
+timestamp: '2024-02-29T19:54:45+00:00'
 requested_by: filipeoliveiraa
 provider: github
 branch: master
@@ -294,7 +294,7 @@ tools:
   last_updated_by: Yashar Fakhari
   last_updated_on: 2019-04-22 16:50:40.000000000 Z
 - name: SuperTest
-  description: 'A library for testing node.js HTTP servers '
+  description: A library for testing node.js HTTP servers
   website_url: https://www.npmjs.com/package/supertest
   version: 4.0.2
   license: MIT
