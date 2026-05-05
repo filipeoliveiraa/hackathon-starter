@@ -21,7 +21,7 @@ jobs:
       RUN_E2E: ${{ vars.RUN_E2E }} # from repository settings -> Actions -> Variables
     strategy:
       matrix:
-        node-version: [24.x]
+        node-version: [24.x, 26.x]
         os: [ubuntu-latest, windows-latest]
     steps:
       - uses: actions/checkout@v6
@@ -49,5 +49,5 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v7
         with:
-          name: tmp-artifacts-${{ matrix.os }}-${{ github.job }}-${{ github.run_id }}
+          name: tmp-artifacts-${{ matrix.os }}-${{ matrix.node-version }}-${{ github.job }}-${{ github.run_id }}
           path: tmp/**
